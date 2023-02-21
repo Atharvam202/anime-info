@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 20px;
+    color: white;
+}
+.pimg1 {
+    background-image: url(naruto.jpg);
+    min-height: 100%;
+}
+.pimg2 {
+    background-image: url(luffy.jpg);
+    min-height: 800px;
+}
+.pimg3 {
+    background-image: url(ichigo.jpg);
+    min-height: 600px;
+}
+.pimg4 {
+    background-image: url(big3.jpg);
+    min-height: 800px;
+}
+.pimg1 , 
+.pimg2 , 
+.pimg3 ,
+.pimg4  {
+   
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform:uppercase ;
+}
+.textBg {
+    background: darkgray;
+    color: #fff;
+    padding: 20px;
+
+}
+.section {
+    padding:50px 80px ;
+    text-align: center;
+}
+.section-light {
+    background-color: azure;
+    color: black;
+    line-height: 20px;
+}
+.section-dark {
+    background-color: azure;
+    color: black;
+}
+.section-dawn {
+    background-color: azure;
+    color: black;
+}
